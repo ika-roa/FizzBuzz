@@ -1,7 +1,12 @@
 def fizzbuzz(i):
+    output = ""
+
     if i % 3 == 0:
-        return "Fizz"
-    elif i % 5 == 0:
-        return "Buzz"
+        output += "Fizz"
+    if i % 5 == 0:
+        output += "Buzz"
+
+    if output:
+        return output
     else:
         return i
