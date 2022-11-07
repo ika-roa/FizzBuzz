@@ -36,3 +36,7 @@ class TestCalculateFizzBuzz(unittest.TestCase):
         i = 15
         assert calculate_fizzbuzz(i) == "FizzBuzz"
 
+    def test_fizzbuzz_returns_fizz_if_number_contains_5(self):
+        i = 52
+        assert calculate_fizzbuzz(i) == "Buzz"
+
