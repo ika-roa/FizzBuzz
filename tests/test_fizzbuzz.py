@@ -24,6 +24,10 @@ class TestCalculateFizzBuzz(unittest.TestCase):
         i = 5
         assert calculate_fizzbuzz(i) == "Buzz"
 
+    def test_fizzbuzz_returns_woof_for_7(self):
+        i = 7
+        assert calculate_fizzbuzz(i) == "Woof"
+
     def test_fizzbuzz_returns_fizzbuzz_for_15(self):
         i = 15
         assert calculate_fizzbuzz(i) == "FizzBuzz"
