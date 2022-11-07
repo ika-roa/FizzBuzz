@@ -7,6 +7,8 @@ def calculate_fizzbuzz(i):
         output += "Buzz"
     if i % 7 == 0 or "7" in str(i):
         output += "Woof"
+    if (i ** 0.5) % 1 == 0:
+        output += "Bam"
 
     if output:
         return output
