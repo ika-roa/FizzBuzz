@@ -1,2 +1,2 @@
 def fizzbuzz(i):
-    return 1
+    return i
