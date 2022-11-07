@@ -45,3 +45,17 @@ class TestCalculateFizzBuzz(unittest.TestCase):
         assert calculate_fizzbuzz(i) == "Woof"
 
 
+class TestReturnFizzBuzzRange(unittest.TestCase):
+
+    def test_fizzbuzz_range_1_to_100(self):
+        fizz_100 = ['Bam', 2, 'Fizz', 'Bam', 'Buzz', 'Fizz', 'Woof', 8, 'FizzBam', 'Buzz',
+                    11, 'Fizz', 'Fizz', 'Woof', 'FizzBuzz', 'Bam', 'Woof', 'Fizz', 19, 'Buzz',
+                    'FizzWoof', 22, 'Fizz', 'Fizz', 'BuzzBam', 26, 'FizzWoof', 'Woof', 29, 'FizzBuzz',
+                    'Fizz', 'Fizz', 'Fizz', 'Fizz', 'FizzBuzzWoof', 'FizzBam', 'FizzWoof', 'Fizz', 'Fizz',
+                    'Buzz', 41, 'FizzWoof', 'Fizz', 44, 'FizzBuzz', 46, 'Woof', 'Fizz', 'WoofBam', 'Buzz',
+                    'FizzBuzz', 'Buzz', 'FizzBuzz', 'FizzBuzz', 'Buzz', 'BuzzWoof', 'FizzBuzzWoof', 'Buzz', 'Buzz',
+                    'FizzBuzz', 61, 62, 'FizzWoof', 'Bam', 'Buzz', 'Fizz', 'Woof', 68, 'Fizz', 'BuzzWoof',
+                    'Woof', 'FizzWoof', 'FizzWoof', 'Woof', 'FizzBuzzWoof', 'Woof', 'Woof', 'FizzWoof', 'Woof', 'Buzz',
+                    'FizzBam', 82, 'Fizz', 'FizzWoof', 'Buzz', 86, 'FizzWoof', 88, 89, 'FizzBuzz',
+                    'Woof', 92, 'Fizz', 94, 'Buzz', 'Fizz', 'Woof', 'Woof', 'Fizz', 'BuzzBam']
+        assert FizzBuzz(100).convert_range_to_fizzbuzz() == fizz_100
