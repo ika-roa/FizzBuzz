@@ -14,3 +14,7 @@
     - Write no more of a unit test than sufficient to fail (compilation failures are failures).
     - Write no more production code than necessary to pass the one failing unit test.
 - Make code easily extensible with further rules.
+
+## New requirements:
+- For multiples of seven print "Woof" instead of the number
+- If 3, 5 or 7 occur in the number (e.g. 13, 52, 17), also print replacement instead of number.
