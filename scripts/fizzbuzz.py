@@ -5,6 +5,8 @@ def calculate_fizzbuzz(i):
         output += "Fizz"
     if i % 5 == 0:
         output += "Buzz"
+    if i % 7 == 0:
+        output += "Woof"
 
     if output:
         return output
