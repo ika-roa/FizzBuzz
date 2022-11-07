@@ -1,7 +1,7 @@
 def calculate_fizzbuzz(i):
     output = ""
 
-    if i % 3 == 0:
+    if i % 3 == 0 or "3" in str(i):
         output += "Fizz"
     if i % 5 == 0:
         output += "Buzz"
