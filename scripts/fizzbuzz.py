@@ -1,4 +1,4 @@
-def fizzbuzz(i):
+def calculate_fizzbuzz(i):
     output = ""
 
     if i % 3 == 0:
@@ -10,3 +10,7 @@ def fizzbuzz(i):
         return output
     else:
         return i
+
+
+if __name__ == "__main__":
+    print(calculate_fizzbuzz(30))
