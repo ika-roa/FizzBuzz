@@ -4,9 +4,9 @@ from scripts.fizzbuzz import calculate_fizzbuzz, FizzBuzz
 
 class TestCalculateFizzBuzz(unittest.TestCase):
 
-    def test_fizzbuzz_returns_1_for_1(self):
+    def test_fizzbuzz_returns_bam_if_1_is_square(self):
         i = 1
-        assert calculate_fizzbuzz(i) == i
+        assert calculate_fizzbuzz(i) == "Bam"
 
     def test_fizzbuzz_returns_2_for_2(self):
         i = 2
