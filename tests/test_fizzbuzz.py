@@ -1,8 +1,8 @@
 import unittest
-from scripts.fizzbuzz import calculate_fizzbuzz
+from scripts.fizzbuzz import calculate_fizzbuzz, FizzBuzz
 
 
-class TestFizzBuzz(unittest.TestCase):
+class TestCalculateFizzBuzz(unittest.TestCase):
 
     def test_fizzbuzz_returns_1_for_1(self):
         i = 1
