@@ -12,9 +12,14 @@ def calculate_fizzbuzz(i):
         return i
 
 
-def convert_range_to_fizzbuzz(upper_limit):
-    return [calculate_fizzbuzz(i) for i in range(1, upper_limit+1)]
+class FizzBuzz:
+
+    def __init__(self, upper_limit):
+        self.upper_limit = upper_limit
+
+    def convert_range_to_fizzbuzz(self):
+        return [calculate_fizzbuzz(i) for i in range(1, self.upper_limit + 1)]
 
 
 if __name__ == "__main__":
-    print(convert_range_to_fizzbuzz(30))
+    print(FizzBuzz(20).convert_range_to_fizzbuzz())
