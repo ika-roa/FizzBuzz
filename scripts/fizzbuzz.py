@@ -3,7 +3,7 @@ def calculate_fizzbuzz(i):
 
     if i % 3 == 0 or "3" in str(i):
         output += "Fizz"
-    if i % 5 == 0:
+    if i % 5 == 0 or "5" in str(i):
         output += "Buzz"
     if i % 7 == 0:
         output += "Woof"
