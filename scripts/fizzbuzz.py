@@ -26,4 +26,4 @@ class FizzBuzz:
 
 
 if __name__ == "__main__":
-    print(FizzBuzz(20).convert_range_to_fizzbuzz())
+    print(FizzBuzz(100).convert_range_to_fizzbuzz())
