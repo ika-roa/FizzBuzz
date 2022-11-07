@@ -1,2 +1,2 @@
-def fizzbuzz():
+def fizzbuzz(i):
     pass
